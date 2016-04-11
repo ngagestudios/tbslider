@@ -25,8 +25,7 @@ class UpgradeData implements UpgradeDataInterface
 
 
     public function __construct(
-        SliderFactory $sliderFactory,
-        IndexerRegistry $indexerRegistry,
+        \Stepzerosolutions\Tbslider\Model\SliderFactory $sliderFactory,
         \Magento\Eav\Model\Config $eavConfig
     ) {
         $this->sliderFactory = $sliderFactory;
